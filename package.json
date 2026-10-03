@@ -1,0 +1,39 @@
+{
+  "name": "keepass-web-vault",
+  "version": "1.0.0",
+  "description": "Leitor e gerenciador web moderno, seguro e 100% offline para bancos de dados de senhas KeePass (.kdbx)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "keepass",
+    "kdbx",
+    "password-manager",
+    "vault",
+    "security",
+    "totp",
+    "argon2",
+    "webcrypto"
+  ],
+  "author": "ohguinascimento",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohguinascimento/keepass-web-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohguinascimento/keepass-web-vault/issues"
+  },
+  "homepage": "https://github.com/ohguinascimento/keepass-web-vault#readme",
+  "type": "module",
+  "devDependencies": {
+    "argon2-browser": "^1.18.0",
+    "hash-wasm": "^4.12.0",
+    "kdbxweb": "^2.1.1",
+    "lucide": "^1.16.0",
+    "vite": "^8.3.2"
+  }
+}
